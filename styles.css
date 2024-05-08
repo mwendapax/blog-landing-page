@@ -35,7 +35,7 @@ a{
     display: flex;
     justify-content: space-between;
     padding-right: 10px;
-    gap: 5PX;
+    gap: 5px;
 }
 
 .heroSection{
@@ -78,6 +78,9 @@ a{
     height: 350px;
 }
 
+.doublePosts, .doublePosts .postPreviewContainer{
+    margin:5px;
+}
 .postImage{
     display: flex;
     justify-content: center;
@@ -119,6 +122,7 @@ a{
     flex: 2;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 10px;
 }
 
 .quickLinks{
@@ -141,7 +145,7 @@ a{
 
 .cardContainer{
     display: flex;
-    height: 150px;
+    height: 200px;
     flex-direction: column;
     margin-block: 50px;
     border-radius: 5px;
@@ -162,7 +166,7 @@ a{
 
 .socialCard{
     display: flex;
-    min-height: 40px;
+    min-height: 60px;
     align-items: center;
     justify-content: space-between;
 }
@@ -194,6 +198,7 @@ a{
     justify-content: center;
     align-items: center;
     flex: 1;
+    text-decoration: underline #323238;
 }
 
 .copyright{
@@ -214,6 +219,8 @@ a{
 .bgNav{
     background-color: transparent;
 }
+
+
 
 .bgHero{
     background-color:#D90041;
@@ -237,8 +244,7 @@ a{
 }
 
 .postLabel{                      
-    color: #000000;
-    border-bottom: solid #000000;
+    color: #F0BD2F;
 }
 
 .doublePostLabel{
@@ -261,4 +267,30 @@ a{
     color: #323238;
     border-right: solid #F0BD2F;
     padding-right: 5px;
+}
+
+.whiteBorderButton{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.redBorderButton{
+    border: 1px solid #D90041;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.buttonBgRed:hover {
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #d90041;
+    color: #FFFFFF;
+}
+
+.buttonBgWhite:hover {
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #D90041;
 }
